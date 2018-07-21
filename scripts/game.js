@@ -218,7 +218,7 @@ function initialGoods(number, sender) {
 
     createTable(getGoodsList(number));
     raisedEvent();
-    user.triggerEvent();
+    user.triggerEvent();  
 }
 
 function getGoodsList(number) {
